@@ -1,0 +1,18 @@
+{
+    "302526832425697293": {
+        "serverName": "Server Prime",
+        "roleChannel": "599332244779171840",
+        "roles": [
+            "Tank",
+            "Healer",
+            "DPS"
+        ],
+        "prefix": "!"
+    },
+    "420043263840354314": {
+        "serverName": "Uganda",
+        "roleChannel": "test-roles",
+        "roles": [],
+        "prefix": ","
+    }
+}

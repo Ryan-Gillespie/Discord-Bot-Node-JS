@@ -3,6 +3,8 @@
 This is a discord chat bot made with NodeJS as a first Javascript project.
 This bot supports a variety of commands and user interactivity.
 
+![image](https://user-images.githubusercontent.com/47795760/132549713-bed6311d-974f-48c4-ad92-e12622e06d88.png)
+
 ## Commands
 
 - help: sends a dm to the user who requested help a list of all available commands, or lists details of a specific command.

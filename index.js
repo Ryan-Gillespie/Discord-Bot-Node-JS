@@ -96,8 +96,8 @@ client.on('message', message => {
 // runs when the client logs in to Discord
 client.on('ready', () => {
 	console.log('Logged in as ' + client.user.tag);
-	// set the user activity to something fun this will say: Playing With SCP-999
-	client.user.setActivity('With SCP-999');
+	// set the user activity to something fun this will say: Watching The Humans
+	client.user.setActivity('The Humans', { type: 'WATCHING' });	
 });
 
 // These are just the two reaction types I care about for using reactions to assign roles

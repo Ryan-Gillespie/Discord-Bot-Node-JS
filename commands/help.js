@@ -19,7 +19,7 @@ module.exports = {
 			// push everything onto data so we can send it to the user
 			data.push('Here\'s a list of all my commands:');
 			data.push(commands.map(command => command.name).join(', '));
-			data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
+			data.push(`\nYou can send \`${prefix | '!'}help [command name]\` to get info on a specific command!`);
 
 			// send the direct message to the user
 			return message.author.send(data, { split: true })

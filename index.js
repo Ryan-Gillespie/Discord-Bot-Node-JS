@@ -32,7 +32,7 @@ client.on('message', message => {
 	}
 	
 	// load command prefix from serverData 
-	const prefix = client.serverData[message.guild.id].prefix;
+	const prefix = '!';
 
 	// If the message does not start with the command prefix, ignore it
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
